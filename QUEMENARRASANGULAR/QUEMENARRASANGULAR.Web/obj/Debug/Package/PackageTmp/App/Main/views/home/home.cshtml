@@ -1,0 +1,55 @@
+﻿<div ng-controller="app.views.home as vm">
+
+    <script>
+        var x = document.getElementById("geolocalizando");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        function showPosition(position) {
+
+
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+
+
+    <div style="text-align:center">
+        <h1>@L("WellcomeMessage")</h1>
+        <p class="lead">@L("Home_ThisIsATemplate")</p>
+    </div>
+    <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options">
+      
+    </ui-gmap-google-map>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h3>¿No encuentras lo que buscas?</h3>
+            <p>
+                Sacar aquí tags
+            </p>
+        </div>
+
+        <div class="col-md-4">
+            <h3>¿Qué ocurre cerca de ti?</h3>
+            <p>
+                Sacar aquí tags
+            </p>
+
+        </div>
+        <div class="col-md-4">
+            <h3>Top En Valencia</h3>
+            <p>
+                Sacar aquí tags
+            </p>
+        </div>
+
+    </div>
+    <script>
+        //getLocation();
+    </script>
+</div>
