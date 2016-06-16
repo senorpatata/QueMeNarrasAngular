@@ -20,5 +20,6 @@ C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANG
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\bin\Release\Nito.AsyncEx.Concurrent.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\bin\Release\Nito.AsyncEx.Enlightenment.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\bin\Release\System.Collections.Immutable.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Release\QUEMENARRASANGULAR.Core.csprojResolveAssemblyReference.cache
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Release\QUEMENARRASANGULAR.Core.dll
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Release\QUEMENARRASANGULAR.Core.pdb

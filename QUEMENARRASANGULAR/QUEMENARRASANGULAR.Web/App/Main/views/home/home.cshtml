@@ -1,41 +1,36 @@
-﻿<div ng-controller="app.views.home as vm">
+﻿@using QUEMENARRASANGULAR.Web.Helpers;
+
+
+
+
+<div ng-controller="app.views.home as vm">
     
-    <script>
-        var x = document.getElementById("geolocalizando");
-        function getLocation() {
-
-            showMadafaca("Geolocalizando...");
-            if (navigator.geolocation) {
-                showMadafaca("Acepta...");
-                navigator.geolocation.getCurrentPosition(showPosition);
-            } else {
-                showMadafaca("NO Acepta...");
-                x.innerHTML = "Geolocation is not supported by this browser.";
-            }
-        }
-        function showPosition(position) {
-
-
-            x.innerHTML = "Latitude: " + position.coords.latitude +
-            "<br>Longitude: " + position.coords.longitude;
-        }
-
-        function showMadafaca(what)
-        {
-            x.innerHTML = what;
-        }
-    </script>
+   
 
 
     <div style="text-align:center">
-        @*<h1>@L("WellcomeMessage")</h1>*@
+       
         <p class="lead">@L("Home_ThisIsATemplate")</p>
     </div>
-    <span id="geolocalizando">Geo</span>
-    <div id="mapgoogle">
-        <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options">
+    <span id="geolocalizando">Geo: </span>
+    <br />
+    <span>Angular: {{erroresAngular}}</span>
+     @{
+         var locale = LocationByIPHelper.GeoLocate();
+        
+         
+     }
 
-        </ui-gmap-google-map>
+ 
+    <div id="mapgoogle" ng-init="map.center = { latitude: @locale.Latitude.ToString().Replace(",","."), longitude: @locale.Longitude.ToString().Replace(",",".") }">
+
+      
+                
+                    
+
+                <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options" events="map.events">
+
+                </ui-gmap-google-map>
     </div>
 
 
@@ -60,9 +55,52 @@
                 Sacar aquí tags
             </p>
         </div>
-
+      
     </div>
-    <script type="text/javascript">
-        getLocation();
+
+    <script>
+        var x = document.getElementById("geolocalizando");
+        function getLocation() {
+
+            var ua = navigator.userAgent.toLowerCase();
+            var isAndroid = ua.indexOf("android") > -1;
+            var geoTimeout = isAndroid ? '15000' : '1000';
+
+
+            showMadafaca("Geolocalizando...");
+            if (navigator.geolocation) {
+                showMadafaca("Acepta...");
+
+                var options = {
+                    enableHighAccuracy: true,
+                    timeout: 5000,
+                    maximumAge: 0
+
+                };
+                navigator.geolocation.getCurrentPosition(showPosition, errorPosition, options);
+            } else {
+                showMadafaca("NO Acepta...");
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        function showPosition(position) {
+
+            showMadafaca("Fue bien " + "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude);
+        }
+
+        function errorPosition(err) {
+
+            showMadafaca('ERROR(' + err.code + '): ' + err.message);
+        }
+
+        function showMadafaca(what)
+        {
+            x.innerHTML = what;
+        }
+
+       // getLocation();
     </script>
+
+
+
 </div>

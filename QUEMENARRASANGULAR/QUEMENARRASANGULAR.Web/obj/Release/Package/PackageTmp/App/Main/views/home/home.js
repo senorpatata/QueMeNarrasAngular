@@ -1,4 +1,4 @@
-﻿(function() {
+﻿(function () {
     var controllerId = 'app.views.home';
     angular.module('app').controller(controllerId, [
         '$scope', 'uiGmapGoogleMapApi', function ($scope, uiGmapGoogleMapApi) {
@@ -7,65 +7,74 @@
 
 
 
-            $scope.thaMap = null;
 
+            $scope.thaMap = null;
+            $scope.erroresAngular = "";
 
             /* INICIALMENTE */
 
             $scope.map = {
-                center: {
-                    latitude: 40.454018,
-                    longitude: -3.509205
-                },
-                zoom: 12,
+
+                zoom: 14,
                 options: {
-                    scrollwheel: false
+                    scrollwheel: true,
+
                 },
                 control: {}
+                ,
+                events: {
+                    center_changed: function (map) {
+                        $scope.$apply(function () {
+                            console.log("cambio de center;")
+                        });
+                    },
+                    zoom_changed: function (map) {
+                        $scope.$apply(function () {
+                            console.log("cambio de centezoomr;")
+                        });
+                    }
+                }
             };
             $scope.marker = [];
-            
-  
 
             uiGmapGoogleMapApi.then(function (maps) {
 
+                console.log("Listo, empezamos geo");
 
-                $scope.thaMap = maps;
-                //maps.map = {
-                //    center: {
-                //        latitude: 40.454018,
-                //        longitude: -3.509205
-                //    },
-                //    zoom: 12,
-                //    options: {
-                //        scrollwheel: false
-                //    },
-                //    control: {}
-                //};
-                //maps.marker = {
-                //    id: 0,
-                //    coords: {
-                //        latitude: 40.454018,
-                //        longitude: -3.509205
-                //    },
-                //    options: {
-                //        draggable: true
-                //    }
-                //};
-
+                lanzarLocation();
             });
-         
 
-            navigator.geolocation.getCurrentPosition(function (position) {
-                $scope.$apply(function () {
-                    $scope.thaMap.Map.latitude = position.coords.latitude;
-                    $scope.thaMap.Map.longitude = position.coords.longitude;
+            function errorPosition(err) {
+
+                $scope.erroresAngular = "ERROR(" + err.code + '): ' + err.message;
+                console.log("No fue bien");
+            }
 
 
-                    $scope.map.center.latitude = position.coords.latitude;
-                    $scope.map.center.longitude = position.coords.longitude;
-                });
-            });
+
+            var lanzarLocation = function () {
+
+                var optionsLocation = {
+                    enableHighAccuracy: true,
+                    timeout: 10000,
+                    maximumAge: 0
+
+                };
+
+                navigator.geolocation.getCurrentPosition(function (position) {
+
+                    $scope.erroresAngular = "Cogida geolocalizacion";
+
+                    $scope.$apply(function () {
+
+                        $scope.erroresAngular = position.coords.latitude;
+                        $scope.map.center.latitude = position.coords.latitude;
+                        $scope.map.center.longitude = position.coords.longitude;
+                    });
+
+                }, errorPosition, optionsLocation);
+            }
+
 
         }
     ]);
