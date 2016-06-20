@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services;
+using QUEMENARRASANGULAR.Dto;
 
 namespace QUEMENARRASANGULAR
 {
@@ -12,6 +13,11 @@ namespace QUEMENARRASANGULAR
         bool Foolazo();
 
         string[] GetDatosMain();
+
+
+        IList<InformationTuitDto> GetTuits(double latitude, double longitude, int zoomLevel);
+
+
 
     }
 }

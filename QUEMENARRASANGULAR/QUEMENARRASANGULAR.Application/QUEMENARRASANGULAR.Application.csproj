@@ -87,6 +87,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\InformationTuitDto.cs" />
     <Compile Include="FoolService.cs" />
     <Compile Include="IFoolService.cs" />
     <Compile Include="QUEMENARRASANGULARApplicationModule.cs" />

@@ -6,8 +6,8 @@
             //Home logic...
 
 
-
-
+            $scope.tuits = [];
+            $scope.markers = [];
             $scope.thaMap = null;
             $scope.erroresAngular = "";
 
@@ -23,24 +23,19 @@
                 control: {}
                 ,
                 events: {
-                    center_changed: function (map) {
+
+                    idle: function (map) {
                         $scope.$apply(function () {
-                            console.log("cambio de center;")
-                        });
-                    },
-                    zoom_changed: function (map) {
-                        $scope.$apply(function () {
-                            console.log("cambio de centezoomr;")
+                            console.log("idle;")
+                            GetTuits();
+                            PaintTuits();
                         });
                     }
                 }
             };
-            $scope.marker = [];
+            
 
             uiGmapGoogleMapApi.then(function (maps) {
-
-                console.log("Listo, empezamos geo");
-
                 lanzarLocation();
             });
 
@@ -49,7 +44,6 @@
                 $scope.erroresAngular = "ERROR(" + err.code + '): ' + err.message;
                 console.log("No fue bien");
             }
-
 
 
             var lanzarLocation = function () {
@@ -74,6 +68,56 @@
 
                 }, errorPosition, optionsLocation);
             }
+
+
+            GetTuits();
+            PaintTuits();
+
+            function GetTuits()
+            {
+                //Obtener del mapa, coordenadas, ancho, etc, pasárselo al servicio
+
+                if (typeof ($scope.map) != "undefined" && typeof ($scope.map.center) != "undefined")
+                {
+                    var latylong = $scope.map.center.latitude + " " + $scope.map.center.longitude;
+                    var nivelZoom = $scope.map.zoom;
+
+                    var llamada = abp.services.app.fool.getTuits($scope.map.center.longitude, $scope.map.center.latitude, $scope.map.zoom);
+                    llamada.promise()
+                    .then(function (response) {
+                        $scope.$apply(function () {
+                            $scope.tuits = response.data;
+                            console.debug("Petición ok");
+                        });
+                    }//then
+                        , function (error) {
+
+                            $scope.$apply(function () {
+
+                                $scope.tuits = [];
+                                console.error("Error en la petición: " + error);
+                            });
+                    });
+
+
+                   
+                }
+          
+
+               
+
+
+
+            }
+
+            function PaintTuits()
+            {
+                //De la lista de tuis, pintar
+
+            }
+
+
+
 
 
         }
