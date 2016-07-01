@@ -19,8 +19,8 @@
     <div id="mapgoogle" ng-init="map.center = { latitude: @locale.Latitude.ToString().Replace(",","."), longitude: @locale.Longitude.ToString().Replace(",",".") }">
 
 
-                <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options" events="map.events">
-
+                <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options" events="map.events" >
+                    <ui-gmap-marker ng-repeat="m in map.markers" coords="m.coords" icon="m.icon" idkey="m.id"></ui-gmap-marker>
                 </ui-gmap-google-map>
     </div>
 
@@ -29,21 +29,22 @@
         <div class="col-md-4">
             <h3>¿No encuentras lo que buscas?</h3>
             <p>
-                Sacar aquí tags
+                Acho Pijo, que se vienen los tuits.
             </p>
         </div>
 
         <div class="col-md-4">
-            <h3>¿Qué ocurre cerca de ti?</h3>
-            <p>
-                Sacar aquí tags
+            <h3>#LoQueSeTuitea</h3>
+            <p ng-repeat="hash in hashTags">
+               
+                <a ng-href="https://twitter.com/hashtag/{{hash}}">#{{hash}}</a>
             </p>
 
         </div>
         <div class="col-md-4">
-            <h3>Top En Valencia</h3>
-            <p>
-                Sacar aquí tags
+            <h3>Top en tu zona</h3>
+            <p ng-repeat="tuit in tuits | limitTo: 5">
+                <a ng-href="{{tuit.tweetUrl}}">{{tuit.tweetCabecera}}</a>
             </p>
         </div>
       

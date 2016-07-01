@@ -2812,3 +2812,236 @@ DEBUG 2016-06-20 12:07:18,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       -
 DEBUG 2016-06-20 12:07:18,511 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
 WARN  2016-06-20 12:07:19,936 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
 WARN  2016-06-20 12:07:19,943 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-01 20:47:40,443 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-01 20:47:41,469 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-01 20:47:41,473 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:47:41,480 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-01 20:47:42,013 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-01 20:47:42,019 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-01 20:47:42,020 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-01 20:47:42,028 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-01 20:47:42,201 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-01 20:47:42,302 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-01 20:47:42,434 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-01 20:47:43,964 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-01 20:47:43,983 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-01 20:53:35,563 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-01 20:53:36,103 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-01 20:53:36,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 20:53:36,110 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-01 20:53:36,391 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-01 20:53:36,395 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-01 20:53:36,396 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-01 20:53:36,398 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-01 20:53:36,521 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-01 20:53:36,591 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-01 20:53:36,705 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-01 20:53:38,007 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-01 20:53:38,025 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-01 21:03:28,712 [44   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-01 21:03:28,713 [44   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-01 21:03:32,907 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-01 21:03:33,907 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-01 21:03:33,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-01 21:03:33,915 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-01 21:03:34,330 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-01 21:03:34,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-01 21:03:34,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-01 21:03:34,337 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-01 21:03:34,494 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-01 21:03:34,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-01 21:03:34,711 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-01 21:03:35,946 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-01 21:03:35,962 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 00:14:01,482 [209  ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 00:32:42,771 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 00:32:43,725 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 00:32:43,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:32:43,734 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 00:32:44,166 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 00:32:44,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 00:32:44,173 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 00:32:44,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 00:32:44,340 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 00:32:44,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 00:32:44,551 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 00:32:45,799 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 00:32:45,814 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 00:35:39,092 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 00:35:40,075 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 00:35:40,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,083 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:35:40,087 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 00:35:40,504 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 00:35:40,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 00:35:40,529 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 00:35:40,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 00:35:40,685 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 00:35:40,774 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 00:35:40,918 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 00:35:43,513 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 00:35:43,529 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 00:36:19,523 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 00:36:20,521 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 00:36:20,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 00:36:20,531 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 00:36:20,948 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 00:36:20,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 00:36:20,954 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 00:36:20,955 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 00:36:21,131 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 00:36:21,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 00:36:21,362 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 00:36:22,694 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 00:36:22,710 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 01:07:09,893 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 01:07:10,865 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 01:07:10,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:07:10,873 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 01:07:11,279 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 01:07:11,284 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 01:07:11,285 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 01:07:11,293 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 01:07:11,458 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 01:07:11,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 01:07:11,675 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 01:07:12,988 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 01:07:13,004 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 01:16:52,273 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 01:16:53,259 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 01:16:53,262 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:16:53,268 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 01:16:53,725 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 01:16:53,731 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 01:16:53,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 01:16:53,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 01:16:53,893 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 01:16:53,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 01:16:54,120 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 01:16:55,449 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 01:16:55,466 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 01:20:13,878 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 01:20:14,838 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 01:20:14,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,842 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:14,845 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 01:20:15,252 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 01:20:15,257 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 01:20:15,258 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 01:20:15,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 01:20:15,414 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 01:20:15,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 01:20:15,624 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 01:20:16,881 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 01:20:16,897 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2016-07-02 01:20:53,737 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-02 01:20:54,732 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2016-07-02 01:20:54,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.9.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARApplicationModule, QUEMENARRASANGULAR.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARCoreModule, QUEMENARRASANGULAR.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARDataModule, QUEMENARRASANGULAR.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.Web.QUEMENARRASANGULARWebModule, QUEMENARRASANGULAR.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QUEMENARRASANGULAR.QUEMENARRASANGULARWebApiModule, QUEMENARRASANGULAR.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-02 01:20:54,741 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2016-07-02 01:20:55,163 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2016-07-02 01:20:55,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-02 01:20:55,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-02 01:20:55,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: QUEMENARRASANGULAR
+DEBUG 2016-07-02 01:20:55,332 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-02 01:20:55,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2016-07-02 01:20:55,548 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QUEMENARRASANGULAR.IFoolService' with service name 'app/fool'.
+WARN  2016-07-02 01:20:56,857 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2016-07-02 01:20:56,875 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.

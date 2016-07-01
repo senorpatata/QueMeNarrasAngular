@@ -34,15 +34,44 @@ namespace QUEMENARRASANGULAR
             }
         }
 
-        public IList<InformationTuitDto> GetTuits(double latitude, double longitude, int zoomLevel)
+        private IList<string> GetHashTags(double longitude, double latitude, int zoomLevel)
+        {
+            var listaTags = new List<string>();
+            listaTags.Add("respect");
+            listaTags.Add("bro");
+
+            return listaTags;
+        }
+
+        private IList<InformationTuitDto> GetTuits(double longitude, double latitude, int zoomLevel)
         {
 
             var lista = new List<InformationTuitDto>();
+            Random random = new Random();
+     
+            for (int i = 0; i < 30; i++)
+            {
+                double mantissa = (random.NextDouble() * 2.0) - 1.0;
+                InformationTuitDto tuid = new InformationTuitDto();
+                tuid.Latitude = latitude + mantissa;
+                tuid.Longitude = longitude + mantissa;
+                tuid.TweetUrl = "https://twitter.com/spain/status/748979527628488706";
+                tuid.TweetCabecera = "Random tuit " + i;
 
-
-            /*Obtener */
+                lista.Add(tuid);
+            }
 
             return lista;
+
+        }
+        public InformationDto GetInformation(double longitude, double latitude, int zoomLevel)
+        {
+            var dto = new InformationDto();
+
+            /*Obtener */
+            dto.Tuits = GetTuits(longitude,latitude,zoomLevel);
+            dto.HashTags = GetHashTags(longitude, latitude, zoomLevel);
+            return dto;
         }
 
     }

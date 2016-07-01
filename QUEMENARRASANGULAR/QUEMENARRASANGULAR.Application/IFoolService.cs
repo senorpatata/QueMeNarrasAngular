@@ -15,7 +15,8 @@ namespace QUEMENARRASANGULAR
         string[] GetDatosMain();
 
 
-        IList<InformationTuitDto> GetTuits(double latitude, double longitude, int zoomLevel);
+        InformationDto GetInformation(double longitude, double latitude, int zoomLevel);
+
 
 
 

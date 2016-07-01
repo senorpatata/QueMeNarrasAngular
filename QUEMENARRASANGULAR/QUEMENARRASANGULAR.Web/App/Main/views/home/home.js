@@ -6,8 +6,8 @@
             //Home logic...
 
 
+            $scope.hashTags = [];
             $scope.tuits = [];
-            $scope.markers = [];
             $scope.thaMap = null;
             $scope.erroresAngular = "";
 
@@ -17,24 +17,26 @@
 
                 zoom: 14,
                 options: {
-                    scrollwheel: true,
+                    scrollwheel: true
 
                 },
                 control: {}
                 ,
+                markers: [],
                 events: {
 
                     idle: function (map) {
                         $scope.$apply(function () {
-                            console.log("idle;")
+                            console.log("idle;");
                             GetTuits();
-                            PaintTuits();
+                            GetHashTags();
+                          
                         });
                     }
                 }
             };
             
-
+         
             uiGmapGoogleMapApi.then(function (maps) {
                 lanzarLocation();
             });
@@ -67,28 +69,52 @@
                     });
 
                 }, errorPosition, optionsLocation);
+            };
+
+
+          
+ 
+            function PaintTuits(tuits) {
+                //De la lista de tuis, pintar
+                console.log("pintar");
+                $scope.map.markers = [];
+                $scope.tuits.forEach(function (tuit) {
+
+                    var lat = tuit.latitude, lon = tuit.longitude;
+                    var marker = {
+                        id: Date.now(),
+                        coords: {
+                            latitude: lat,
+                            longitude: lon
+                        }
+                    };
+                    console.log("Cargando tuit " + tuit.tweetUrl);
+                    $scope.map.markers.push(marker);
+                    console.log($scope.map.markers);
+                   
+                });
+                $scope.$apply();
             }
 
 
-            GetTuits();
-            PaintTuits();
 
             function GetTuits()
             {
                 //Obtener del mapa, coordenadas, ancho, etc, pasárselo al servicio
 
-                if (typeof ($scope.map) != "undefined" && typeof ($scope.map.center) != "undefined")
+                if (typeof $scope.map != "undefined" && typeof $scope.map.center != "undefined")
                 {
                     var latylong = $scope.map.center.latitude + " " + $scope.map.center.longitude;
                     var nivelZoom = $scope.map.zoom;
 
-                    var llamada = abp.services.app.fool.getTuits($scope.map.center.longitude, $scope.map.center.latitude, $scope.map.zoom);
+                    var llamada = abp.services.app.fool.getInformation($scope.map.center.longitude, $scope.map.center.latitude, $scope.map.zoom);
                     llamada.promise()
                     .then(function (response) {
-                        $scope.$apply(function () {
-                            $scope.tuits = response.data;
-                            console.debug("Petición ok");
-                        });
+
+                        $scope.tuits = response.tuits;
+                        $scope.hashTags = response.hashTags;
+                        PaintTuits();
+         
                     }//then
                         , function (error) {
 
@@ -98,26 +124,13 @@
                                 console.error("Error en la petición: " + error);
                             });
                     });
-
-
-                   
                 }
-          
-
-               
-
-
 
             }
 
-            function PaintTuits()
-            {
-                //De la lista de tuis, pintar
+      
 
-            }
-
-
-
+            GetTuits();
 
 
         }
