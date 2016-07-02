@@ -29,7 +29,7 @@
                         $scope.$apply(function () {
                             console.log("idle;");
                             GetTuits();
-                            GetHashTags();
+                           
                           
                         });
                     }
@@ -59,11 +59,11 @@
 
                 navigator.geolocation.getCurrentPosition(function (position) {
 
-                    $scope.erroresAngular = "Cogida geolocalizacion";
+                  
 
                     $scope.$apply(function () {
 
-                        $scope.erroresAngular = position.coords.latitude;
+                      
                         $scope.map.center.latitude = position.coords.latitude;
                         $scope.map.center.longitude = position.coords.longitude;
                     });
@@ -71,8 +71,17 @@
                 }, errorPosition, optionsLocation);
             };
 
-
-          
+            $scope.GetTuit = function(id)
+            {
+                var result = $.grep($scope.tuits, function (e) { return e.id == id; });
+                if (result.length == 0) {
+                    // not found
+                } else if (result.length == 1) {
+                    return result[0];
+                } else {
+                    // multiple items found
+                }
+            }
  
             function PaintTuits(tuits) {
                 //De la lista de tuis, pintar
@@ -82,7 +91,7 @@
 
                     var lat = tuit.latitude, lon = tuit.longitude;
                     var marker = {
-                        id: Date.now(),
+                        id: tuit.id,
                         coords: {
                             latitude: lat,
                             longitude: lon

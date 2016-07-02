@@ -70,3 +70,4 @@ C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANG
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\bin\Debug\System.Collections.Immutable.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Debug\QUEMENARRASANGULAR.Core.dll
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Debug\QUEMENARRASANGULAR.Core.pdb
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Core\obj\Debug\QUEMENARRASANGULAR.Core.csprojResolveAssemblyReference.cache

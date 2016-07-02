@@ -53,11 +53,11 @@ namespace QUEMENARRASANGULAR
             {
                 double mantissa = (random.NextDouble() * 2.0) - 1.0;
                 InformationTuitDto tuid = new InformationTuitDto();
-                tuid.Latitude = latitude + mantissa;
-                tuid.Longitude = longitude + mantissa;
+                tuid.Latitude = latitude + mantissa * 0.1;
+                tuid.Longitude = longitude + mantissa * 0.1;
                 tuid.TweetUrl = "https://twitter.com/spain/status/748979527628488706";
                 tuid.TweetCabecera = "Random tuit " + i;
-
+                tuid.Id = i;
                 lista.Add(tuid);
             }
 

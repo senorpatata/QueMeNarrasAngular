@@ -4,6 +4,6 @@
         '$scope', function ($scope) {
             var vm = this;
             //About logic...
-        }
-    ]);
+        } 
+    ]); 
 })();

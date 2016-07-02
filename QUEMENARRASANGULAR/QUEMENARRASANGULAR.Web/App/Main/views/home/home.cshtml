@@ -10,17 +10,26 @@
         <p class="lead">@L("Home_ThisIsATemplate")</p>
     </div>
 
-    <span>Angular: {{erroresAngular}}</span>
+    <span>{{erroresAngular}}</span>
      @{
          var locale = LocationByIPHelper.GeoLocate();         
      }
 
  
     <div id="mapgoogle" ng-init="map.center = { latitude: @locale.Latitude.ToString().Replace(",","."), longitude: @locale.Longitude.ToString().Replace(",",".") }">
-
-
                 <ui-gmap-google-map center="map.center" zoom="map.zoom" options="map.options" events="map.events" >
-                    <ui-gmap-marker ng-repeat="m in map.markers" coords="m.coords" icon="m.icon" idkey="m.id"></ui-gmap-marker>
+                    <ui-gmap-marker ng-repeat="m in map.markers" coords="m.coords" icon="m.icon" idkey="m.id">
+
+                        <ui-gmap-window show="m.showWindow"  ng-cloak>
+                            <div >
+
+                   
+                                <p> {{GetTuit(m.id).tweetCabecera}}!</p>
+
+                                <p class="muted">Poner imágenes e info de tuiiter!</p>
+                            </div>
+                        </ui-gmap-window>
+                    </ui-gmap-marker>
                 </ui-gmap-google-map>
     </div>
 

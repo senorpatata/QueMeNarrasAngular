@@ -13,6 +13,7 @@ namespace QUEMENARRASANGULAR.Dto
         public double Latitude { get; set; }
         public string TweetUrl { get; set; }
         public string TweetCabecera { get; set; }
+        public long Id { get; set; }
     }
     
 

@@ -6,8 +6,8 @@
             //Home logic...
 
 
-
-
+            $scope.hashTags = [];
+            $scope.tuits = [];
             $scope.thaMap = null;
             $scope.erroresAngular = "";
 
@@ -17,30 +17,27 @@
 
                 zoom: 14,
                 options: {
-                    scrollwheel: true,
+                    scrollwheel: true
 
                 },
                 control: {}
                 ,
+                markers: [],
                 events: {
-                    center_changed: function (map) {
+
+                    idle: function (map) {
                         $scope.$apply(function () {
-                            console.log("cambio de center;")
-                        });
-                    },
-                    zoom_changed: function (map) {
-                        $scope.$apply(function () {
-                            console.log("cambio de centezoomr;")
+                            console.log("idle;");
+                            GetTuits();
+                            GetHashTags();
+                          
                         });
                     }
                 }
             };
-            $scope.marker = [];
-
+            
+         
             uiGmapGoogleMapApi.then(function (maps) {
-
-                console.log("Listo, empezamos geo");
-
                 lanzarLocation();
             });
 
@@ -49,7 +46,6 @@
                 $scope.erroresAngular = "ERROR(" + err.code + '): ' + err.message;
                 console.log("No fue bien");
             }
-
 
 
             var lanzarLocation = function () {
@@ -73,7 +69,68 @@
                     });
 
                 }, errorPosition, optionsLocation);
+            };
+
+
+          
+ 
+            function PaintTuits(tuits) {
+                //De la lista de tuis, pintar
+                console.log("pintar");
+                $scope.map.markers = [];
+                $scope.tuits.forEach(function (tuit) {
+
+                    var lat = tuit.latitude, lon = tuit.longitude;
+                    var marker = {
+                        id: Date.now(),
+                        coords: {
+                            latitude: lat,
+                            longitude: lon
+                        }
+                    };
+                    console.log("Cargando tuit " + tuit.tweetUrl);
+                    $scope.map.markers.push(marker);
+                    console.log($scope.map.markers);
+                   
+                });
+                $scope.$apply();
             }
+
+
+
+            function GetTuits()
+            {
+                //Obtener del mapa, coordenadas, ancho, etc, pasárselo al servicio
+
+                if (typeof $scope.map != "undefined" && typeof $scope.map.center != "undefined")
+                {
+                    var latylong = $scope.map.center.latitude + " " + $scope.map.center.longitude;
+                    var nivelZoom = $scope.map.zoom;
+
+                    var llamada = abp.services.app.fool.getInformation($scope.map.center.longitude, $scope.map.center.latitude, $scope.map.zoom);
+                    llamada.promise()
+                    .then(function (response) {
+
+                        $scope.tuits = response.tuits;
+                        $scope.hashTags = response.hashTags;
+                        PaintTuits();
+         
+                    }//then
+                        , function (error) {
+
+                            $scope.$apply(function () {
+
+                                $scope.tuits = [];
+                                console.error("Error en la petición: " + error);
+                            });
+                    });
+                }
+
+            }
+
+      
+
+            GetTuits();
 
 
         }
