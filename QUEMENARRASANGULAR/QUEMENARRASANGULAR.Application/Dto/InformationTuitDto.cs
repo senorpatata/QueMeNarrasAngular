@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QUEMENARRASANGULAR.Dto
 {
-    public class InformationTuitDto
+    public class TuitInfo
     {
 
         public double Longitude { get; set; }
@@ -15,14 +15,26 @@ namespace QUEMENARRASANGULAR.Dto
         public string TweetCabecera { get; set; }
         public long Id { get; set; }
     }
-    
 
     public class InformationDto
     {
 
-        public IList<InformationTuitDto> Tuits = new List<InformationTuitDto>();
-        public IList<string> HashTags = new List<string>();
-        public IList<string> Places = new List<string>();
+        public IList<TuitInfo> Tuits = new List<TuitInfo>();
+        public IList<HashInfo> HashTags = new List<HashInfo>();
+        public IList<PlaceInfo> Places = new List<PlaceInfo>();
+    }
+
+    public class HashInfo
+    {
+        public string Url { get; set; }
+        public string Name { get; set; }
+        public double Volume { get; set; }
+    }
+    public class PlaceInfo
+    {
+        public string Url { get; set; }
+        public string Name { get; set; }
+        public double Volume { get; set; }
     }
 
 }
