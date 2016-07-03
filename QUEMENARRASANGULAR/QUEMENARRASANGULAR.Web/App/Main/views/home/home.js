@@ -8,6 +8,7 @@
 
             $scope.hashTags = [];
             $scope.tuits = [];
+            $scope.places = [];
             $scope.thaMap = null;
             $scope.erroresAngular = "";
 
@@ -120,9 +121,15 @@
                     llamada.promise()
                     .then(function (response) {
 
-                        $scope.tuits = response.tuits;
-                        $scope.hashTags = response.hashTags;
-                        PaintTuits();
+                        $scope.$apply(function () {
+                            $scope.tuits = response.tuits;
+                            $scope.hashTags = response.hashTags;
+                            $scope.places = response.places;
+                            PaintTuits();
+        
+                        });
+
+           
          
                     }//then
                         , function (error) {

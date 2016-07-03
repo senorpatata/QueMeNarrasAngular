@@ -22,6 +22,7 @@ namespace QUEMENARRASANGULAR.Dto
 
         public IList<InformationTuitDto> Tuits = new List<InformationTuitDto>();
         public IList<string> HashTags = new List<string>();
+        public IList<string> Places = new List<string>();
     }
 
 }

@@ -136,3 +136,10 @@ C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANG
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Web.Http.WebHost.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\obj\Debug\QUEMENARRASANGULAR.WebApi.dll
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\obj\Debug\QUEMENARRASANGULAR.WebApi.pdb
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\LinqToTwitter.net.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Core.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Core.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.WebApi\bin\Debug\System.Reactive.Interfaces.xml

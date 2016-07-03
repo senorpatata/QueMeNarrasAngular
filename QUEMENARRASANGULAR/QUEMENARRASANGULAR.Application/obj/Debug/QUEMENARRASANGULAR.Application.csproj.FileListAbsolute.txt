@@ -94,3 +94,13 @@ C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANG
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Collections.Immutable.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\obj\Debug\QUEMENARRASANGULAR.Application.dll
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\obj\Debug\QUEMENARRASANGULAR.Application.pdb
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\LinqToTwitter.AspNet.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\LinqToTwitter.net.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Core.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Linq.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Core.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.Linq.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Application\bin\Debug\System.Reactive.PlatformServices.xml

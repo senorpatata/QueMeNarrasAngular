@@ -243,3 +243,10 @@ C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANG
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\Abp.EntityFramework.xml
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\obj\Debug\QUEMENARRASANGULAR.Web.dll
 C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\obj\Debug\QUEMENARRASANGULAR.Web.pdb
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\LinqToTwitter.net.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Linq.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Core.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Interfaces.dll
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Linq.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Core.xml
+C:\Users\Angel\Source\Repos\QueMeNarrasAngular\QUEMENARRASANGULAR\QUEMENARRASANGULAR.Web\bin\System.Reactive.Interfaces.xml

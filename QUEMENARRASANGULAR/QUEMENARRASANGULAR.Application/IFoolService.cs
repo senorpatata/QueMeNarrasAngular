@@ -10,15 +10,7 @@ namespace QUEMENARRASANGULAR
 {
     public interface IFoolService : IApplicationService
     {
-        bool Foolazo();
-
-        string[] GetDatosMain();
-
 
         InformationDto GetInformation(double longitude, double latitude, int zoomLevel);
-
-
-
-
     }
 }
