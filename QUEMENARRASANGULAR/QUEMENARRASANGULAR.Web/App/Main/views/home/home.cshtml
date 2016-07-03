@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col-md-4">
             <h3>Donde ocurre</h3>
-            <p ng-repeat="place in places">
+            <p ng-repeat="place in places | limitTo: 5">
 
                 <a ng-href="https://twitter.com/search?q={{place}}">{{place}}</a>
             </p>
@@ -43,7 +43,7 @@
 
         <div class="col-md-4">
             <h3>#LoQueSeTuitea</h3>
-            <p ng-repeat="hash in hashTags">
+            <p ng-repeat="hash in hashTags | limitTo: 5">
                
                 <a ng-href="https://twitter.com/hashtag/{{hash}}">#{{hash}}</a>
             </p>

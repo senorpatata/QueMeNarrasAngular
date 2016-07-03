@@ -121,13 +121,12 @@
                     llamada.promise()
                     .then(function (response) {
 
-                        $scope.$apply(function () {
+                     
                             $scope.tuits = response.tuits;
                             $scope.hashTags = response.hashTags;
                             $scope.places = response.places;
                             PaintTuits();
         
-                        });
 
            
          

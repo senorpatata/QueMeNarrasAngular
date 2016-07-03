@@ -101,7 +101,7 @@ namespace QUEMENARRASANGULAR
             /*Obtener */
             dto.Tuits = GetTuits(context, longitude, latitude, zoomLevel);
             dto.HashTags = GetHashTags(context, longitude, latitude, zoomLevel);
-            //  dto.Places = GetPlaces(context,longitude, latitude, zoomLevel);
+            dto.Places = GetPlaces(context,longitude, latitude, zoomLevel);
             return dto;
         }
 
